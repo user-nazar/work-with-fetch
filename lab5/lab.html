@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My second page </title>
+    <link rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <p class="title-1"> FC Manchester United </p>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="">All news</a></li>
+            <li><a id="create_player_open_button" class="create_player_open_button">Players</a></li>
+        </ul>
+    </nav>
+
+    <div class="search-player">
+        <input
+                type="text"
+                id="find-player"
+                name="find-player"
+                class="find-player"
+                placeholder="Enter  name"
+        >
+        <button class="clear-search-bar" id="clear-search-bar">Delete</button>
+    </div>
+</header>
+
+<section class="players-section">
+
+    <div class="players-manager">
+        <div class="sort-manager">
+            <label for="sort-select">Sort</label>
+            <select name="sort-select" id="sort-select" onchange="visualiseSortedPlayers()">
+                <option value="none">choose</option>
+                <option value="price">price</option>
+            </select>
+        </div>
+        <div class="calculate-price">
+            <button id="calculate-price__button" onclick="calculatePrice()">Count</button>
+            <label id="total-price" class="total-price">Total price: </label>
+        </div>
+
+    </div>
+    <ul id="players-list" class="players-list"></ul>
+</section>
+
+<section>
+    <h1 class="title-2">The main coach <br> Ole Gunnar Sulscher</h1>
+    <img class="photo-8" src="images/photo_8.jpg" alt="Photo">
+</section>
+
+<section class="create_player" id="create_player">
+    <div id="cup" class="cup">🏆</div>
+    <form class="form__create_player" , id="form__create_player">
+        <h1 class="title-4">Create a new football player</h1>
+
+        <div>
+            <label class="label">Name:</label>
+            <input id="create_name" name="name" type="text" required>
+        </div>
+        <div>
+            <label class="label">National:</label>
+            <input id="create_national" name="national" type=text step=0.1 required>
+        </div>
+        <div>
+            <label class="label">Price:</label>
+            <input id="create_price" name="price" type="number" required>
+        </div>
+        <button type="button" id="create_button" onclick="createPlayer()">Create</button>
+    </form>
+
+    <h1 class="title-3">Debutants</h1>
+    <img class="photo-9" src="images/photo_9.jpg" alt="Photo">
+    <img class="photo-10" src="images/photo_10.jpg" alt="Photo">
+    <img class="photo-11" src="images/photo_11.jpg" alt="Photo">
+
+</section>
+
+
+<script src="js/create_edit.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

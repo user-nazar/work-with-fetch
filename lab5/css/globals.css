@@ -1,0 +1,11 @@
+button{
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: 20px;
+    border-style: outset;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-image: url("../images/photo_1.jpg");
+}

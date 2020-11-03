@@ -1,0 +1,148 @@
+.players-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+
+}
+.players-list{
+    width: 65%;
+    font-size: 12px;
+    text-align:center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: yellow;
+}
+
+.players-list li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: grey 0.15rem solid;
+    padding: 1%;
+    margin: 2% 0 0 5%;
+    border-radius: 5px;
+    background-image: url("../images/photo_7.jpg");
+}
+.players-list li:hover{
+    border-color: black;
+}
+.control-buttons{
+    display: flex   ;
+    align-items: center;
+    padding-top: 1rem;
+}
+.control-buttons button{
+    width: 5rem;
+    border-radius: 4px;
+}
+.delete-button{
+    width: 100%;
+    background-color: red;
+    color: white;
+    margin-left: 23px;
+}
+.delete-button:hover{
+    background-color: blue;
+}
+
+.edit-button{
+    width: 100%;
+    background-color: white;
+}
+.edit-button:hover{
+    border-color: rgb(171, 184, 197);
+}
+
+
+.players-manager{
+    display: flex;
+    flex-direction: column;
+    font-size: 200%;
+    justify-content: space-between;
+}
+
+.sort-manager{
+    display: flex;
+    flex-direction: row;
+    padding: 15% 0 0 22%;
+}
+.sort-manager label{
+    width: 12rem;
+    color: red;
+}
+.sort-manager select{
+    width: 10rem;
+}
+
+.calculate-price{
+    position: absolute;
+    margin-top: 12rem;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.calculate-price label{
+    margin-top: 1rem;
+}
+.calculate-price button{
+    border-radius: 4px;
+    width: 18rem;
+}
+.calculate-price button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.total-price{
+    color: white;
+}
+
+.form__edit_player{
+    display: none;
+    max-width: 85%;
+    min-height: 5rem;
+}
+
+.form__edit_player div input{
+    border: none;
+}
+
+
+.hide{
+    display: none !important;
+}
+
+.open{
+    display: flex !important;
+    flex-direction: column;
+}
+
+player_id{
+
+}
+
+.name{
+
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 25px;
+}
+
+
+.national {
+
+    font-size: 12px;
+    line-height: 17px;
+
+}
+.price{
+
+    font-size: 15px;
+    line-height: 17px;
+
+}

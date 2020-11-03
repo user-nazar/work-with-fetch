@@ -1,0 +1,120 @@
+.title-1{
+    font-size: 21px;
+    color: red;
+}
+
+.title-2 {
+    font-size: 21px;
+    font-height: 12px;
+    margin-left: 150px;
+    color: red;
+}
+
+.title-3 {
+    font-size: 21px;
+    font-height: 12px;
+    margin-top: 100px;
+    margin-left: 1000px;
+    color: red;
+}
+
+.title-4 {
+    color: red;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: capitalize;
+    align-items: center;
+    font-size: larger;
+    padding: 0.4rem 0 0.5rem 1rem;
+    border-bottom: 0.1rem solid black;
+}
+header h1{
+    padding-left: 3%;
+}
+nav{
+    padding-right: 17%;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: red;
+}
+.nav-list li:nth-child(2){
+    padding-left: 1rem;
+}
+
+.nav-list a:hover{
+    text-decoration: black underline;
+}
+
+.nav-list a:active{
+    text-decoration: black underline;
+}
+.search-player{
+    display: flex;
+    flex-direction: row;
+    padding-right: 12%;
+}
+.find-player{
+    width: 150%;
+}
+.clear-search-bar{
+    background-color: yellow;
+    margin-left: 10%;
+    padding: 3%;
+    border-radius: 20px;
+    border-color: grey;
+    width: 7rem;
+}
+.clear-search-bar:hover{
+    border-color: black;
+    background-color: blue;
+}
+
+.label{
+
+    color: red;
+}
+
+.photo-8{
+
+    margin-left: 130px;
+    top: 1250px;
+    width: 250px;
+    height: 170px;
+
+}
+
+.photo-9{
+
+    margin-left: 1000px;
+    top: 300px;
+    width: 210px;
+    height: 150px;
+
+}
+
+.photo-10{
+
+    margin-left: 1000px;
+    top: 370px;
+    width: 210px;
+    height: 150px;
+
+}
+
+.photo-11{
+
+    margin-left: 1000px;
+    top: 440px;
+    width: 210px;
+    height: 150px;
+
+}
+
+

@@ -1,0 +1,41 @@
+.create_player{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/photo_1.jpg");
+}
+
+.form__create_player{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+.form__create_player div{
+    display: flex;
+    flex-direction: column;
+}
+.form__create_player div:not(:nth-child(1)),
+.form__create_player button{
+    margin-top: 10%;
+}
+.cup{
+    position: absolute;
+    top: 2%;
+    left: 1.5%;
+    font-size: 250%;
+    cursor: pointer;
+}
+.create_player_open_button{
+    cursor: pointer;
+    color: red;
+}
+
+
+.show{
+    display: inline;
+}
